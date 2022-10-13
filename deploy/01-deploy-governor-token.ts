@@ -9,6 +9,8 @@ const deployGovernanceToken: DeployFunction = async function (
     const {deploy, log} = deployments
     const {deployer} = await getNamedAccounts()
 
+    log("=============================")
+
     log("Deploying Governance Token...")
     const governanceToken = await deploy("GovernanceToken", {
         from: deployer,
