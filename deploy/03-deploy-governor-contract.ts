@@ -1,6 +1,6 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types"
 import { DeployFunction } from "hardhat-deploy/types"
-import {VOTING_PERIOD, VOTING_DELAY, QUORUM_PERCENTAGE  } from "../helper-hardhat-config"
+import { VOTING_PERIOD, VOTING_DELAY, QUORUM_PERCENTAGE } from "../helper-hardhat-config"
 
 const deployGovernorContract: DeployFunction = async function(
     hre: HardhatRuntimeEnvironment
