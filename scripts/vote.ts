@@ -1,6 +1,6 @@
 import * as fs from "fs"
 import { developmentChains, proposalsFile, VOTING_PERIOD } from "../helper-hardhat-config"
-import {ethers, network} from "hardhat"
+import { ethers, network } from "hardhat"
 import { moveBlocks } from "../utils/move-blocks"
 
 const index = 0
